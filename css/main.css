@@ -1,0 +1,742 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img {
+    max-width: 100%;   
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    /*font: 16px/26px Helvetica, Helvetica Neue, Arial;*/
+    font-size: 2em Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.footer-container {
+    background-color: #fff;
+    border: none;
+}
+
+.rating-container {
+    background-color: #f3f3f3;
+    margin-bottom: 25px;
+
+}
+
+/* ==============
+    MOBILE: Footer Menu
+   ============== */
+
+nav {
+
+    width: 100%;
+    padding: 20px 0 0 0;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    margin: 20px 0 16px 0;
+    border-top: 1px solid #e1e1e1;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 5px;
+
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.0em;
+    line-height: 1.5em;
+    text-decoration: none;
+
+    color: #444;
+    background: #fff;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main-container {
+    margin-top: 144px;
+}
+
+.header-container span {
+    position: absolute;
+    right: 17.5px;
+    top: 10px;
+    font-size: 20px; /* we want it to be fixed --> px instead of em */
+}
+
+.header-container span.secondary {
+    position: absolute;
+    right: 17.5px;
+    top: 36px;
+    font-size: 14px;
+}
+
+.app-icon {
+    height: 70px;
+    width: 70px;
+    background: url(../img/page-sprite-small.png) no-repeat scroll 0 -29px transparent;
+    background-size: 250px 100px;
+    text-indent: -9999px;
+    display: inline-block;
+    position: absolute;
+    left: 17.5px;
+    top: 12.5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.install-button {
+    font-size: 14px;
+    line-height: 27.84000015258789px;
+    color: #fff;
+    position: absolute;
+    right: 17.5px;
+    bottom: 10px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #b3c833;
+    padding: 0 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.instruction-slider .instruction-text {
+    background: #e5e5e5;
+    float: left;
+    margin-left: 2.5%;
+    width: 45%;
+    height: 100%;
+    font-size: 2.0em;
+}
+
+.instruction-slider img {
+    margin-right: 2.5%;
+    float: right;
+    width: 50%;
+}
+
+.install-button:active,
+.install-button:hover {
+    -webkit-box-shadow: 0px 2px 0px 0px #7E8F11; /* WebKit */
+    -moz-box-shadow: 0px 2px 0px 0px #7E8F11; /* Firefox */
+    box-shadow: 0px 2px 0px 0px #7E8F11; /* Standard */
+}
+
+.wide-visible {
+    display: none;
+}
+
+.main {
+    padding: 0;
+}
+
+.main h1 {
+    width: 100%;
+    font-weight: bolder;  
+    font-size: 1.5em;
+    color: #434343;
+    margin: 10px 0;
+}
+
+.main hr {
+    border-top: 1px dashed #e1e1e1;
+}
+
+.main h2 {
+    font-size: 1.15em;  
+    color: #990000;
+}
+
+.main article h2 {
+    
+    font-size: 1.15em;
+    margin: 10px 0;
+    color: #990000;
+}
+
+.main h1,
+.main article h2,
+.main article h3,
+.main article p,
+.main article ul,
+.main article .with-margins {
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 90%;
+} 
+
+.main ul {
+    color: #434343;
+    padding: 0 0 0 25px;
+}
+
+.main left-column {
+        float: none;
+        width: 100%;
+}
+
+.main right.column {
+        float: none;
+        width: 100%;
+}
+
+.main aside {
+    color: white;
+    width: 100%;
+    /*margin: 0 5%;*/
+    /*padding: 0px 5% 10px;*/
+}
+
+.main .col {
+    width: 100%;
+    float: none;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0 0 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.article-footer-picture {
+    margin-bottom: 17px;
+}
+
+.logo {
+    display: inline-block;
+    height: 39px;
+    width: 116px;
+    max-width: 232px;
+    margin: auto;
+    background: url(../img/page-sprite-small.png) no-repeat scroll -73px -30px transparent;
+    margin: 5px auto 5px auto;
+}
+
+.main .is-visible {
+        visibility: hidden;
+    }
+
+.header-container {
+    border: none;
+    border-bottom: 2px solid #b3c833;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header-container section {
+    position: relative; /* allows children to absolute position themselves */
+}
+
+.header-container .brand {
+    text-align: center;
+    height: 49px;
+    background: #d10303; /* Old browsers */
+    background: -moz-linear-gradient(top, #d10303 1%, #810b0b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#d10303), color-stop(100%,#810b0b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #d10303 1%,#810b0b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #d10303 1%,#810b0b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #d10303 1%,#810b0b 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #d10303 1%,#810b0b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d10303', endColorstr='#810b0b',GradientType=0 ); /* IE6-9 */
+}
+
+.header-container .app-info {
+    height: 95px;    
+    background-color: #e5e5e5;
+}
+
+.header-container .app-info-background{
+    height: 95px;    
+    background-color: #e5e5e5;
+}
+
+
+/* ===============
+    Mobile: Payment seals and addiction prevention
+   =============== */
+
+.paymentSealsAndAddictionPrevention {
+    text-align: center;
+    line-height: 0;
+}
+
+.paymentSealsAndAddictionPrevention div {
+    display: inline-block;
+    margin-right: 15px;
+    height: 29px;
+    width: 45px;
+}
+
+.visa, .ec , .mc, .addictionPrevention {
+    background: url(../img/page-sprite-small.png) no-repeat scroll 0 0 transparent;
+}
+
+.visa {
+    background-position: 0 0;
+}
+.ec {
+    background-position: -55px 0;
+}
+.mc {
+    background-position: -110px 0;
+}
+
+.addictionPrevention {
+    background-position: -218px 0;
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    margin-left: 15px;
+    margin-right: 0px;
+}
+
+.visa, .ec, .mc, .addictionPrevention {
+    background-size: 250px 100px;
+}
+
+.paymentSealsAndAddictionPrevention .separator {
+    border-left: 1px solid #e1e1e1;
+    margin: 0;
+    height: 29px;
+    width: 1px;
+}
+
+.footer-container .wrapper {
+    border-top: 1px solid #e1e1e1;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Header
+   ==================== */
+
+    .header-container .brand {
+        height: 70px;
+    }
+
+    .logo {
+        background: url(../img/page-sprite-big.png) no-repeat scroll -115px -57px transparent;
+        background-size: 476px 171.36px;
+        width: 178.5px;
+        height: 60px;
+        margin: 5px 0;
+    }
+
+    .main-container {
+        margin-top: 165px; /* 70 (brand) + 95 (app-info) */
+    }
+
+    .app-icon {
+        background: url(../img/page-sprite-big.png) no-repeat scroll 0 -36px transparent;
+        background-size: 296px 106.56px;
+    }
+
+/* ====================
+    INTERMEDIATE: Payment seals and addiction prevention
+   ==================== */
+
+    .paymentSealsAndAddictionPrevention div {
+        height: 58px;
+        width: 90px;
+    }
+
+    .visa, .ec , .mc, .addictionPrevention {
+        background: url(../img/page-sprite-big.png) no-repeat scroll 0 0 transparent;
+        background-size: 500px 180px;
+    }
+
+    .visa {
+        background-position: 0 0;
+    }
+    .ec {
+        background-position: -110px 0;
+    }
+    .mc {
+        background-position: -220px 0;
+    }
+
+    .addictionPrevention {
+        background-position: -436px 0;
+        width: 60px;
+        height: 58px;
+    }
+
+    .paymentSealsAndAddictionPrevention .separator {
+        height: 58px;
+    }
+
+/* ============
+    INTERMEDIATE: Footer Menu
+   ============ */
+
+    nav {
+        border: none;
+        text-align: center;
+        list-style: none;
+    }
+
+    nav ul {
+         width: 100%;
+        display: block;
+        text-align: center;
+        list-style: none;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        text-transform: none;
+        text-decoration: underline;
+        font-size: 1.325em; /* 26 / 16*/
+        line-height: 1.625em;
+        padding: 0 13px;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+#instruction-slider {
+    max-width: 480px;
+    margin: 10px auto 0 auto;
+}
+
+@media only screen and (min-width: 800px) {
+
+    #screenshot-slider {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .main .instruction-slider {
+        width: 587px;
+        margin: 0 auto;   
+    }
+
+    .main .instruction-table-slider {
+        width: 800px;
+        margin: 0 auto;   
+    }
+
+    .main .is-visible {
+        visibility: visible;
+    }
+
+    .main .tablet-text-wide {
+        width: 600px;
+        margin: 0 auto;      
+    }
+
+
+    .app-info {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+   .wide-visible .android-button {
+
+   }
+
+   .wide-invisible {
+        display: none;
+   }
+
+   .wide-visible {
+        display: block;
+    }
+
+   .main h1 {
+        text-align: center;
+        font-size: 2em;
+   }
+
+    .logo img {
+        padding: 0.85% 0;
+    }
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* jssor slider bullet navigator skin 18 css */
+/*
+.jssorb18 div           (normal)
+.jssorb18 div:hover     (normal mouseover)
+.jssorb18 .av           (active)
+.jssorb18 .av:hover     (active mouseover)
+.jssorb18 .dn           (mousedown)
+*/
+.jssorb18 div, .jssorb18 div:hover, .jssorb18 .av
+{
+    background: url(../img/b18.png) no-repeat;
+    overflow:hidden;
+    cursor: pointer;
+}
+.jssorb18 div { background-position: -7.5px -7.5px; }
+.jssorb18 div:hover, .jssorb18 .av:hover { background-position: -82.5px -7.5px; }
+.jssorb18 .av { background-position: -157.5px -7.5px; }
+.jssorb18 .dn, .jssorb18 .dn:hover { background-position: -232.5px -7.5px; }
+
+.jssorb18 .n
+{
+    display: none;
+    color: #000;
+}
+.jssorb18 div:hover .n, .jssorb18 .av .n, .jssorb18 .av:hover .n, .jssorb18 .dn .n { display: block; }
